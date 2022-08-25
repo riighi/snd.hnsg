@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200&display=swap");
+@import url("//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css");
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  list-style: none; }
+
+body {
+  width: 98vw;
+  height: 160vh;
+  background-color: #1b1b1b;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  body #form-vote-snd {
+    background-color: #e4f4f4;
+    width: 70vw;
+    height: 145vh;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5rem; }
+    body #form-vote-snd .header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      position: relative;
+      text-align: center; }
+      body #form-vote-snd .header .titulo {
+        color: #054d2a;
+        font-size: 2.5rem;
+        font-family: "Lato", sans-serif;
+        top: 5.5rem;
+        left: 17rem;
+        letter-spacing: 0.2rem; }
+    body #form-vote-snd .paragrafo {
+      font-family: "Poppins", sans-serif;
+      font-size: 0.9rem;
+      color: #054d2a;
+      position: relative;
+      top: -1.8rem;
+      left: 10rem;
+      width: 45%;
+      height: 15%;
+      text-align: center; }
+    body #form-vote-snd .mensagem-paragrafo {
+      font-family: "Poppins", sans-serif;
+      font-size: 1.3rem;
+      color: #054d2a;
+      position: relative;
+      top: -2rem; }
+      body #form-vote-snd .mensagem-paragrafo .form-data-cardapio {
+        color: #ff0000; }
+    body #form-vote-snd .pesquisas {
+      width: 70%;
+      font-family: "Poppins", sans-serif;
+      font-size: 0.8rem;
+      position: relative;
+      border: 0.2rem solid #054d2a;
+      margin: 1.5rem auto;
+      border-radius: 0.5rem;
+      letter-spacing: 0.1em;
+      line-height: 1.5rem;
+      color: #054d2a;
+      padding: 0.5rem;
+      box-shadow: 0 0 2px #424242;
+      margin: 0.5rem auto;
+      text-align: center;
+      overflow: hidden; }
+      body #form-vote-snd .pesquisas .option {
+        margin-left: 3%;
+        margin-top: 1%; }
+      body #form-vote-snd .pesquisas .option-message {
+        height: 10vh;
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 0 7%;
+        font-size: 0.9rem;
+        color: #054d2a;
+        word-wrap: break-word; }
+        body #form-vote-snd .pesquisas .option-message::placeholder {
+          font-size: 0.9rem;
+          color: #054d2a; }
+    body #form-vote-snd .btn-form-snd {
+      position: relative;
+      background-color: #0b844b;
+      color: #e4f4f4;
+      width: 15%;
+      height: 5%;
+      border-radius: 0.5rem;
+      margin: 0.5rem auto;
+      font-size: 1rem;
+      letter-spacing: 0.15rem;
+      box-shadow: 5px 2px 10px #1b1b1b; }
+      body #form-vote-snd .btn-form-snd:hover {
+        background-color: #054d2a;
+        color: #0b844b;
+        cursor: pointer; }
+
+/*# sourceMappingURL=index.css.map */
